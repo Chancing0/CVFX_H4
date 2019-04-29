@@ -1,22 +1,32 @@
-# CVFX_H4
 # Infinite Zooming
 
 
 
 # Outline
-- **校內景觀**
+
+
+- **取景與校內**
+
+
 - **抽取特徵 & match結果 & 使用不同特徵提取器**
-- **影像對齊&infinite zoom**
+
+
 - **Image Stitch**
+
+
+- **Image alignment** 
+
+
+- **infinite zoom**
+
+
 - **結論**
 
-# 校內景觀
+# 取景與校內
+
 | 台達                               | 水木                               | 實齋                             |
 |------------------------------------|------------------------------------|------------------------------------|
-| ![](https://imgur.com/3oRlyHt.gif) | ![](https://imgur.com/JfWiefQ.gif) | ![](https://imgur.com/yqKM8Cl.gif) |
-
-![](https://imgur.com/3oRlyHt.gif)
-![](https://imgur.com/JfWiefQ.gif)
+| <img src="https://imgur.com/3oRlyHt.gif" width="255"> | <img src="https://imgur.com/JfWiefQ.gif" width="255"> | <img src="https://imgur.com/yqKM8Cl.gif" width="255"> |
 
 
 
@@ -51,12 +61,16 @@
 
 
 # infinite zoom
-飄來飄去
+
+* **飄來飄去**
+
+
 ![](https://imgur.com/352139z.gif)
 
-葉子の流
-![](https://imgur.com/q1TjE6h.gif)
+* **葉子の流**
 
+
+![](https://imgur.com/q1TjE6h.gif)
 
 
 
@@ -64,13 +78,29 @@
 
 
 **原始圖片如下**
-| ![](https://i.imgur.com/60pROsk.jpg) | ![](https://i.imgur.com/kGBxn3Q.jpg) |
+
+| ![](https://i.imgur.com/kGBxn3Q.jpg) |  ![](https://i.imgur.com/60pROsk.jpg) |
 |--------------------------------------|--------------------------------------|
+
 
 **抓取各自的特徵 並 完成拼接**
 | ![](https://i.imgur.com/2FV7afL.jpg) |
 |--------------------------------------|
 | ![](https://i.imgur.com/kfCjlyv.jpg) |
+
+
+# Image aligtnment
+**原始圖片如下**
+
+| ![](https://i.imgur.com/8YFpdi6.jpg) | ![](https://i.imgur.com/MgdzpyQ.jpg) |
+|--------------------------------------|--------------------------------------|
+
+
+**抓取各自的特徵 並 完成對齊**
+
+| ![](https://i.imgur.com/BAilFci.jpg) |
+|---------------------------------------------|
+| ![](https://i.imgur.com/eoJ4fLy.jpg) |
 
 
 
@@ -80,37 +110,10 @@
 | 方法                                      | 評估                                                                                                                                                                                                                                                                              |
 |-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 抽取特徵 & match結果 & 使用不同特徵提取器 | 對於特徵提取的結果，我們對比了ORB,AKAZE,SIFT,SURF,brief,brisk六種特征提取器以及四種matching方法（brief,brief+knn,flann,flann+knn）可以看到，各自的效果都不差，但是 由於flann_knn+brief & flann_knn+brisk 這兩部分實踐在參數這上有問題，所以就沒有show出結果，總體來說效果還不錯。 |
-| 影像對齊                           |                                                                                                                                                                                                                                                                                   |
+| image alignment        |                                                                                                                                                                                                                                                                                   |
 | infinite zoom                             | 對於對校內場景做infinite zoom，我們認為不太容易，因為有行人和汽車的影響，所以向內                                                                                                                                                                                                 |
 | image stitch                              | 效果很不錯，除了中間的拼接上有色差，如果去除色差，則看不出來有兩張圖拼接的痕跡。                                                                                                                                                                                                  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+|       asd     |      asd           |
 
 
 
