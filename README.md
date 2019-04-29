@@ -57,8 +57,8 @@
 | AKAZE | ![](https://i.imgur.com/g2t5Sk0.jpg) | ![](https://i.imgur.com/mpnPIAz.jpg) |
 | SIFT  | ![](https://i.imgur.com/iiBmKWb.jpg) | ![](https://i.imgur.com/oGwuXmy.jpg) |
 | surf  | ![](https://i.imgur.com/xd3Il8E.jpg) | ![](https://i.imgur.com/i7SlkoR.jpg) |
-| brief | ![](https://i.imgur.com/RxJhYgs.jpg) |                                      |
-| brisk | ![](https://i.imgur.com/h2V1Swl.jpg) |                                      |
+| brief | ![](https://i.imgur.com/RxJhYgs.jpg) |        not work                      |
+| brisk | ![](https://i.imgur.com/h2V1Swl.jpg) |         not work                     |
 
 
 # infinite zoom
