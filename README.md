@@ -27,7 +27,7 @@
 
 | 台達                               | 水木                               | 實齋                             |
 |------------------------------------|------------------------------------|------------------------------------|
-| <img src="https://imgur.com/3oRlyHt.gif" width="255"> | <img src="https://imgur.com/JfWiefQ.gif" width="255"> | <img src="https://imgur.com/yqKM8Cl.gif" width="255"> |
+| <img src="https://i.imgur.com/lJUl7lo.gif" width="255"> | <img src="https://i.imgur.com/IEMn00b.gif" width="255"> | <img src="https://imgur.com/yqKM8Cl.gif" width="255"> |
 
 
 如果看不到gif，點擊這裡([台達](https://imgur.com/3oRlyHt.gif)，[水木](https://imgur.com/JfWiefQ.gif)，[實齋](https://imgur.com/yqKM8Cl.gif))
