@@ -10,6 +10,7 @@
 
 - **抽取特徵 & match結果 & 使用不同特徵提取器**
 
+- **infinite zoom**
 
 - **Image Stitch**
 
@@ -17,7 +18,7 @@
 - **Image alignment** 
 
 
-- **infinite zoom**
+
 
 
 - **結論**
