@@ -35,11 +35,11 @@
 
 
 
-# 抽取特徵 & match結果 & 使用不同特徵提取器 
+# 抽取特徵 & match結果 
+抽取特徵 : orb, AKAZE, SIFT, surf, brief, brisk
+特徵匹配 : BFMatcher, BFMatcher_knn, flann, flann_knn
 
-
-
-### 使用 brief & brief_knn 來 match（應用在TA的兩張影像）
+### 使用 BFMatcher & BFMatcher_knn 來 match（應用在TA的兩張影像）
 |       | bf                                   | bf_knn                               |
 |-------|--------------------------------------|--------------------------------------|
 | orb   | ![](https://i.imgur.com/lBLZsp8.jpg) | ![](https://i.imgur.com/5a7885N.jpg) |
